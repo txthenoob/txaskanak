@@ -1,1 +1,3 @@
-just a index to browse the content
+"Let there be..." dapp that reads your wallet and tolds you the amount of all historically.
+
+_"Let there be rock"_
