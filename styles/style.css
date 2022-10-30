@@ -1,0 +1,17 @@
+body {
+    background-color: blueviolet;
+}
+
+textarea {
+    background-color: green;
+    color: orangered;
+    font-style: italic double;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: cadetblue;
+}
+
+button {
+    background-color: blue;
+    color: red;
+}
+
