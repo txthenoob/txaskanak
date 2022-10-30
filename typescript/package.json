@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@solana/web3.js": "^1.66.2",
+    "typescript": "^4.8.4"
+  }
+}
