@@ -4,7 +4,7 @@ body {
 
 textarea {
     background-color: green;
-    color: orangered;
+    color: rgb(31, 118, 189);
     font-style: italic double;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: cadetblue;
