@@ -1,63 +1,65 @@
 body {
     background-color: rgb(254,254,255);
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     margin: 0;
     }
 
 header {
-    width: 100%;
     display: flex;
     position: fixed;
-    flex-flow: row;
+    width: 100%;
 }
 
 
 header>nav {
-    height: 80px;
+    height: 60px;
     width: 100%;
     display: flex;
-    flex-direction: row;
-    vertical-align: middle;
-    /* 
     background-color: aqua;
-     */
+    justify-content: space-between; 
+    /* 
+    flex-flow: row nowrap;
+    align-content: space-between; 
+    */
 }
 
-header>nav>img {
-    width: 50%;
-    transform: scale(30%);
-    background-color: bisque;
-    
-    
-    /*  
-    flex-direction: row;
-    width: 40%;
-    */    
-    
+.marco {
+    height: 100%;
+    width: 20%;
 }
+
+.marco>img {
+    height: 100%;
+    transform: scale(50%);
+    /*  
+    width: 100%;
+    background-color: bisque;
+    translate: 0 0;
+*/    
+
+}
+
 
 .menu {
     display: flex;
-    flex-flow: row;
+    flex-flow: row nowrap;
     width: 60%;
-    /*  
+    vertical-align: middle;
     background-color: azure;
-    */
-    align-content: space-between;
 }
 
 .menu>p {
-    align-content: center;
     width: 100%;
     text-align: center;
-    text-decoration: double;
     
 }
+    /*  
+    text-decoration: double;
+*/
 
+/* transform:translateY(100%); 
 .sec0 {
-    /* transform:translateY(100%); 
-    */
     width: 200%;
     height: 700px;
     display: flex;
@@ -67,34 +69,35 @@ header>nav>img {
     background-color: rgb(226,230,40);
 }
 
-.sec0>div {
+.slice1 {
     width: 50%;
     vertical-align: middle;
 }
+*/
 
+/*
 .sec0>div>img {
     height: 100%;
     width: 100%; 
-    /*
     align-self: center;
     background-color: brown;
-    */
 }
+*/
 
+/* 
 .sec0>div>p {
-    /* 
-    */
     padding: 10% 15%;
     text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 75px;
     font-weight: bold;
 }
-
-
+*/
 
 
 /*
+
+
 textarea {
     background-color: green;
     color: rgb(0, 140, 255);
@@ -113,8 +116,8 @@ button {
 button:hover {
     background-color: red;
 }
- */
-img {
+*>img {
     height: 100px;
     width: 100px;
 }
+*/
