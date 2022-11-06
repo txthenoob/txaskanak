@@ -1,3 +1,3 @@
-"Let there be..." dapp that reads your wallet and tolds you the amount of all historically.
+Personal challenge. Copy and improve a known webpage.
 
 _"Let there be rock"_
