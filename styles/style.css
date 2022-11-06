@@ -43,7 +43,7 @@ header>nav {
 .menu {
     display: flex;
     flex-flow: row nowrap;
-    width: 50%;
+    width: 30%;
     vertical-align: middle;
     /* background-color: azure; */
     align-items: center;
@@ -101,6 +101,52 @@ header>nav {
 /* 
 .slice2 {
 } */
+
 .sec1 {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.txt {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+
+}
+
+.icono {
+    height: 700px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: top;
+    display: flex;
+    flex-flow: row nowrap;
     
+}
+
+.icono div {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    text-align: center;
+}
+
+.icono div img {
+    justify-content: center;
+    scale: 8%;
+    
+}
+
+.icono div p {
+
+}
+
+
+#puntos-black {
+    position: absolute;
+    transform: translate(-120%, -100%);
+    scale: 30%;
 }
