@@ -23,6 +23,7 @@ header>nav {
     */
 }
 
+<<<<<<< HEAD
 .marco {
     height: 100%;
     width: 20%;
@@ -153,6 +154,11 @@ header>nav {
     flex-flow: row wrap;
     margin: 1% 5%;
     text-align: center;
+=======
+button {
+    background-color: blue;
+    color: red;
+>>>>>>> a781d17b5f38cbe72a6475ff62813779f0ca9b67
 }
 
 .sec2 {
