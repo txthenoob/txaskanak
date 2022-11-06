@@ -1,18 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <title>
+        skanak - 3d Scan & Modelling 
+        skanak.tech
+    </title>
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <textarea name="wallet" id="wallet" cols="50" rows="1" placeholder="Write here the wallet addres"></textarea>
-            <input src="./img/search-icon.png" type="image" value="check content">
+        <nav> <!--redundante-->
+            <!-- no se usa <img src="/src/img/logo-white.svg" alt="logo-white.png"> -->
+            <div class="marco">
+                <img src="/src/img/logo.png" alt="logo.png">
+            </div>
+            <div class="menu">
+                <p>QUÉ ES LO QUE HACEMOS</p>
+                <p>QUIENES SOMOS</p>
+                <p>SECOTRES</p>
+                <p>GLOSARIO</p>
+                <p>CONTACTO</p>
+            </div>
         </nav>
     </header>
+
+    <div class="sec0">
+        <div class="slice1">
+            <p>Te ayudamos a crear valor mediante la digitalización de tus activos</p>
+            <img src="/src/img/scan.jpg" alt="/src/img/scan.jpg">
+        </div>
+        <div class="slice2">
+            <p>Escaneado y modelado 3D: simple y facíl</p>
+            <img src="/src/img/slider-2.jpg" alt="/src/img/slider-2.jpg">
+        </div>
+    </div>
+    
+    <div class="sec1">
+        <div class="txt">
+            <h2>QUÉ ES LO QUE HACEMOS</h2>    
+            <p>Ofrecemos servicios de escaneado y modelado para:</p>
+        </div>
+        <div class="icono">
+            <div class="icon1">
+                <img src="/src/img/icono-1.svg" alt="icono-1.svg">
+                <h3>BIM, MEP, HVAC</h3>
+            </div>
+            <div class="icon2">
+                <img src="/src/img/icono-2.svg" alt="icono-2.svg">
+                <h3>Ingeneria Inversa, prototipado y metrología</h3>
+            </div>
+            <div class="icon2">
+                <img src="/src/img/icono-3.svg" alt="icono-3.svg">
+                <h3>Tour virtual 360º y vista de producto 360º</h3>
+            </div>
+        </div>
+        <img id="puntos-black" src="/src/img/puntos-black.png" alt="red-puntos">
+    </div>
+    
+    <div class="sec2">
+        <img src="/src/img/slider-skanak.jpg" alt="/src/img/slider-skanak.jpg">
+        <div class="qtxt">
+            <h2>Quiénes somos</h2>
+            <p>En skanak nos dedicamos al escaneado y modelado 3D dando respuesta a las demandas de BIM, MEP, HVAC, Ingeniería inversa, Prototipado, Metrología, Tour virtual 360° y Vista de producto 360°, estos productos están dirigidos a los más diversos sectores industriales, construcción, servicios, inmobiliario, comercio, restauración, organismos públicos y gubernamentales e incluso para particulares. En skanak tenemos conocimiento, experiencia y estamos apoyados en la más puntera tecnología para poder desarrollar un servicio profesional y de calidad superior.</p>
+        </div>
+        <div class="qtxt">
+            <h2>Digitalización de activos</h2>
+            <p>El digitalizado de activos es el propulsor del trabajo colaborativo y el principio de una gestión eficiente de sus recursos. Agilidad en la toma de decisiones, incremento de operaciones preventivas y reducción de las curativas, etc. Un largo listado de ventajas que este servicio potencia.</p>
+            <p>Plantas industriales, tuberías, conductos, estructuras, edificios, hoteles, museos, piezas mecánicas, piezas de arte, son algunos ejemplos de empleo de la digitalización que ofrece skanak.</p>
+        </div>
+        <img src="/src/img/slider-skanak-2.jpg" alt="/src/img/slider-skanak-2.jpg">
+    
+
+    </div>
+
+    <div class="sec3">
+        <p>Sectores</p>
+        <div class="sectImg">
+            <img src="/src/img/sector-1.svg" alt="/src/img/sector-1.svg">
+            <img src="/src/img/sector-2.svg" alt="/src/img/sector-2.svg">
+            <img src="/src/img/sector-3.svg" alt="/src/img/sector-3.svg">
+            <img src="/src/img/sector-4.svg" alt="/src/img/sector-4.svg">
+            <img src="/src/img/sector-5.svg" alt="/src/img/sector-5.svg">
+            <img src="/src/img/sector-6.svg" alt="/src/img/sector-6.svg">
+            <img src="/src/img/sector-7.svg" alt="/src/img/sector-7.svg">
+            <img src="/src/img/sector-8.svg" alt="/src/img/sector-8.svg">
+        </div>
+    </div>
+    
+    <div class="sec4">
+        <h2>Glosario</h2>
+        <ul><!--casi mejor td-->
+            <p>BIM</p>
+            <p>“Build information modeling” o modelado de información de edificios. Es una metodología de trabajo colaborativo compuesto por variados procesos que se basa en crear una red de información centralizada de formato digital, desarrollada y compartida por los distintos actores de la cadena de valor, con el objetivo de gestionar todo el ciclo de vida de un edificio desde el proyecto hasta su demolición.</p>
+            <p>MEP</p>
+            <p>Es una sigla que se refiere a la Ingeniería de instalaciones mecánicas, eléctricas y de plomería (Mechanical, Electrical and Plumbing).        </p>
+            <p>HVAC</p>
+            <p>Es una sigla que se refiere a la Ingeniería de instalaciones de calefacción, ventilación y aire condicionado (Heating, Ventilating and Air Conditioned).</p>
+        </ul>
+    </div>
+    
+    <div class="sec5">
+        <div>
+            <h2>CONTACTO</h2>
+            <p>¿Necesitas ayuda para gestionar tus recursos?</p>
+        </div>
+        <form action="/formulario" method="post">
+            <label for="Nombre">Nombre</label>
+            <input type="text">
+            <label for="Email">Email</label>
+            <input type="text">
+            <label for="Mensaje">Mensaje</label>
+            <input type="text">
+            <button type="submit">enviar</button>
+    </div>
+    
+    <footer>
+        <nav><!--redundante-->
+            <link rel="stylesheet" href="Ikono">
+            <link rel="stylesheet" href="Telefono">
+            <link rel="stylesheet" href="Dirección/mapa">
+            <link rel="stylesheet" href="Polica de privacidad">
+            <link rel="stylesheet" href="data">
+        </nav>
+    </footer>
 </body>
 </html>
