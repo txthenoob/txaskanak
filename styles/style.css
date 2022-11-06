@@ -58,38 +58,49 @@ header>nav {
 }
 
 .sec0 {
-    background-color: greenyellow;
+    background-color: rgb(226,231,41);
     height: 700px;
     width: 100%;
     margin: 0;
     display: flex;
     flex-flow: row nowrap;
+
 }
 .sec0 div {
-    flex-basis:auto;
-}
-
-.slice1, .slice2{
-    /*  background-color: red; */
     display: flex;
-    width: 100%;
-    object-fit: cover;
     justify-content: space-between;
-    
+    width: 100%;
+
 }
 
-.slice1 img, .slice2 img {
-    
-    /* scale: 40%; */
+/*  
+.slice1, .slice2 {    
+    background-color: red;
+    width: 100%;
+}
+*/
+
+.sec0 div img {
+    object-fit: cover;
     width: 50%;
+    /* scale: 40%; 
+    */
     background-color: purple;
 }
 
-.slice1 p, .slice2 p {
-    
-    /* scale: 40%; */
+.sec0 div p {
+    height: 100%;
+    width: 50%;
+    font-size: 72px;
+    padding: 0% 10% 0%;
+    /* 
+    scale: 40%; 
     background-color: pink;
+    */
 }
 /* 
 .slice2 {
 } */
+.sec1 {
+    
+}
