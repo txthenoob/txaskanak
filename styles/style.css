@@ -190,4 +190,28 @@ header>nav {
     line-height: 150%;
 }
 
+.sec3 {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
 
+.sec3 p {
+    font-size: 4vh;
+    /* padding: 6vh 0 0 10vh; */
+}
+
+.sectImg {
+    height: 25vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+/* 
+.sectImg>img {
+}
+ */
