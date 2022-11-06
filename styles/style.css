@@ -193,35 +193,53 @@ header>nav {
 }
 
 .sec3 {
-    width: 100vw;
+    width: 50vw;
     height: 50vh;
+    /* padding: 10vh 5% 0 5%; */
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    justify-items: center;
+    /* 
+    justify-items: center; */
 }
 
 .sec3 p {
+    text-align: left;
     font-size: 4vh;
-    /* padding: 6vh 0 0 10vh; */
+    /* padding: 6vh 0 0 10vh; 
+    justify-content:space-around;
+    justify-items: center;
+    */
 }
 
 .sectImg {
+    position: relative;
     height: 25vh;
-    width: 12vw;
+    width: 64vw;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-    justify-items: center;
+    background-color: blueviolet;
 }
 /* 
 */
 
-.sectImg>img {
+.sectImg>div  {
+    position: relative;
+    background-color: aquamarine;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectImg>div>img {
 /*  
    height: 25vh;
  */
-    width: 3vw;
+    width: 5vw;
     display: flex;
     flex-flow: row wrap;
+}
+
+.sectImg>div>p {
+    font-size: 2vh;
 }
