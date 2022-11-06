@@ -156,26 +156,28 @@ header>nav {
 }
 
 .sec2 {
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-flow: row wrap;
 }
 
 .sec2 img {
-    width: 50%;
-    transform:
+    height: 50vh;
+    width: 50vw;
+    /* ToFix: pictures appears compresed */
 }
 
 .qtxt {
-    width: 50%;
+    width: 50vw;
     background-color: #F7F7F7;
 
 
 }
 
 .qtxt h2 {
-    text-align: center;
-    padding: 5% 0 0 0;
+    text-align: left;
+    font-size: 4vh;
+    padding: 5% 0 0 15%;
 }
 
 .qtxt p {
@@ -187,3 +189,5 @@ header>nav {
     list-style:lower-greek;
     line-height: 150%;
 }
+
+
