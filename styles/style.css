@@ -155,4 +155,35 @@ header>nav {
     text-align: center;
 }
 
+.sec2 {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
 
+.sec2 img {
+    width: 50%;
+    transform:
+}
+
+.qtxt {
+    width: 50%;
+    background-color: #F7F7F7;
+
+
+}
+
+.qtxt h2 {
+    text-align: center;
+    padding: 5% 0 0 0;
+}
+
+.qtxt p {
+    text-align: left;
+    padding: 0  27% 0 15%;
+    margin: 0%;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style:lower-greek;
+    line-height: 150%;
+}
